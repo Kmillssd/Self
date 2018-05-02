@@ -36,6 +36,7 @@ namespace MemoryChat.Client
 
             Console.WriteLine("Whats your username?");
             var userName = Console.ReadLine();
+            var userId = Guid.NewGuid();
 
             Console.WriteLine("What room do you want to join?");
             var chatRoom = Console.ReadLine();
@@ -59,7 +60,7 @@ namespace MemoryChat.Client
 
                await clientWrapper
                     .Client
-                    .GetGrain<IChatMessageGrain>(Guid.NewGuid())
+                    .GetGrain<IChatMessageGrain>(userId)
                     .SendMessage(chatRoom, new ChatMessage()
                     {
                         Message = userResponse,
