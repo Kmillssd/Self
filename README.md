@@ -12,3 +12,7 @@ MemoryChat - In-memory chat room messaging application utilising Microsoft's Orl
 
 TemperatureReader - Topshelf hosted TCP/IP socket
 
+### YamlDotNet
+
+FeatureToggle - Simple enabling / disabling of multiplier feature using YAML configuration file 
+
