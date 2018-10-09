@@ -8,6 +8,10 @@ Learning, proof of concepts and the likes
 
 MemoryChat - In-memory chat room messaging application utilising Microsoft's Orleans framework
 
+### RabbitMQ
+
+RPC - A scalable Request/reply implementation using RabbitMQ message broker
+
 ### Topshelf
 
 TemperatureReader - Topshelf hosted TCP/IP socket
