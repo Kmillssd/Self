@@ -8,7 +8,7 @@ namespace WcfTcp.Client.Services
             : base("Operators")
         { }
 
-        public string SignIn(string userName, string password)
+        public ResponseDto SignIn(string userName, string password)
         {
             return this.Proxy.SignIn(userName, password);
         }

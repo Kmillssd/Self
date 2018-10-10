@@ -6,7 +6,7 @@ namespace WcfTcp.Contracts
     public interface IOperatorService : IService
     {
         [OperationContract]
-        string SignIn(string userName, string password);
+        ResponseDto SignIn(string userName, string password);
     }
 }
 

@@ -10,10 +10,10 @@ namespace WcfTcp.Client
             var opsClientService = new OperatorClientService();
 
             var response = opsClientService.Proxy.SignIn("Kyle", "3232");
-            Console.WriteLine("[.] Received '{0}' using proxy directly", response);
+            Console.WriteLine("[.] Received '{0}' using proxy directly", response.State);
 
             response = opsClientService.SignIn("Kyle", "3232");
-            Console.WriteLine("[.] Received '{0}' using method wrapper for proxy", response);
+            Console.WriteLine("[.] Received '{0}' using method wrapper for proxy", response.State);
 
             Console.ReadKey();
         }
