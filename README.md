@@ -12,6 +12,10 @@ MemoryChat - In-memory chat room messaging application utilising Microsoft's Orl
 
 RPC - A scalable Request/reply implementation using RabbitMQ message broker
 
+### WCF
+
+TCP - A WCF Client in .NET Core and WCF Service in .NET Framework 4.7.2 using TCP transport
+
 ### Topshelf
 
 TemperatureReader - Topshelf hosted TCP/IP socket
